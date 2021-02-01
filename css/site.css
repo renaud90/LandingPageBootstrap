@@ -1,0 +1,22 @@
+﻿body{
+    width : 100%;
+}
+
+h1{
+    text-align:center;
+}
+
+.container{
+    max-width:100%;
+    margin:0px 0px 0px 0px;
+}
+
+.col-12{
+    padding:0px;
+}
+
+#main-image{
+    height:600px;
+    background-image: url('../img/main.jpg');
+    filter:opacity(80%);
+}
