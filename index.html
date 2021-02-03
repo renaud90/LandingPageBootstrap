@@ -6,6 +6,10 @@
     <title></title>
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="icon"
+          type="image/png"
+          href="img/logo.png">
     <style type="text/css">
         .auto-style1 {
             height: 51px;
@@ -17,24 +21,127 @@
 
 <body>
     <div class="container" id="main-image">
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col-6">
-                <h1 class="text-info">TheProgrammerHeaven</h1>
+        <div class="row half">
+            <div class="col col-md-3">
+
+                <div class="dropdown">
+                    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MAGASINEZ
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+
             </div>
-            <div class="col-3"></div>
+            <div class="col col-12 col-md-6">
+                <img id="logo" src="img/logo.png" />
+                <h1 class="text-white" id="main-title">TheProgrammerHeaven</h1>
+                <h5 class="text-white">Le meilleur matériel informatique </h5>
+            </div>
+            <div class="col col-md-3">
+                <a href="#" id="cart-icon"><i class="fa fa-shopping-cart fa-4x text-white"></i></a>
+            </div>
         </div>
 
-        <div class="row" >
-            <div class="col-4"></div>
-            <div class="col-4">
+        <div class="row half">
+            <div class="col col-4"></div>
+            <div class="col col-4">
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Trouvez votre produit" aria-label="Search">
                     <button class="btn btn-outline-info" type="submit">Chercher</button>
                 </form>
             </div>
-            <div class="col-4"></div>
+            <div class="col col-4"></div>
         </div>
+    </div>
+
+    <div class="container" id="shopping-menu">
+        <div class="row">
+            <div class="col col-6 col-xl-3 caca shop-menu-item" id="shop1">
+                <div class="menu-title"><a href="#" class="text-white">ORDINATEURS</a></div>
+            </div>
+            <div class="col col-6 col-xl-3 caca shop-menu-item" id="shop2">
+                <div class="menu-title"><a href="#" class="text-white">ÉCRANS</a></div>
+            </div>
+            <div class="col col-6 col-xl-3 caca shop-menu-item" id="shop3">
+                <div class="menu-title"><a href="#" class="text-white">DISQUES DURS</a></div>
+            </div>
+            <div class="col col-6 col-xl-3 caca shop-menu-item" id="shop4">
+                <div class="menu-title"><a href="#" class="text-white">AUTRES ACCESSOIRES</a></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container" id="about-us">
+        <div class="row">
+            <div class="col col-12 col-lg-6 caca about-us-item">
+                <h3 class="text-info">TheProgrammerHeaven en chiffres</h3>
+                <img  class="about-us-figure" src="img/chiffres.png" />
+            </div>
+            <div class="col col-12 col-lg-6 caca about-us-item">
+                <h3 class="text-info">Nous trouver</h3>
+                <iframe class="about-us-figure" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10923.113087175328!2d-71.23188621092604!3d46.80867343045135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb895d86fed53cf%3A0xfccfeec5fe1eb788!2sCentre%20des%20congr%C3%A8s%20de%20Qu%C3%A9bec!5e0!3m2!1sfr!2sca!4v1612268630837!5m2!1sfr!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container" id="footer">
+        <div class="row">
+            <div class="col col-12 bg-info text-white no-margin">
+                <h6 id="footer-title">
+                    <img src="img/logo.png" class="logo-mini"/>
+                    TheProgrammerHeaven
+                </h6>
+                
+            </div>
+            <div class="col col-12 text-white bg-info no-margin" id="footer-content">
+                <div class="row padded">
+                    <div class="col col-6 col-lg-3 no-margin ">
+                        <ul class="footer-menu">
+                            <li class="footer-menu-title text-dark">Magasin</li>
+                            <li><a href="#" class="text-dark text-mini">Compte</a></li>
+                            <li><a href="#" class="text-dark text-mini">Mes commandes</a></li>
+                            <li><a href="#" class="text-dark text-mini">Retours</a></li>
+                            <li><a href="#" class="text-dark text-mini">Ventes et support</a></li>
+                        </ul>
+                    </div>
+                    <div class="col col-6 col-lg-3 no-margin">
+                        <ul class="footer-menu">
+                            <li class="footer-menu-title text-dark">Entreprise</li>
+                            <li><a href="#" class="text-dark text-mini">Carrières</a></li>
+                            <li><a href="#" class="text-dark text-mini">À propos de TheProgrammerHeaven</a></li>
+                            <li><a href="#" class="text-dark text-mini">Actualité de l'entreprise</a></li>
+                            <li><a href="#" class="text-dark text-mini">Plan du site</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row padded">
+                    <div class="col col-4 col-xl-2 no-margin ">
+                        <a href="#" class="text-dark">Anglais</a>
+                    </div>
+                    <div class="col col-4 col-xl-2 no-margin ">
+                        <a href="#" class="text-dark">Nous contacter</a>
+                    </div>
+                    <div class="col col-4 col-xl-2 no-margin ">
+                        <a href="#" class="text-dark">Confidentialité et cookies</a>
+                    </div>
+                    <div class="col col-4 col-xl-2 no-margin ">
+                        <a href="#" class="text-dark">Condition d'utilisation</a>
+                    </div>
+                    <div class="col col-4 col-xl-2 no-margin ">
+                        <a href="#" class="text-dark">2020 TheProgrammerHeaven</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>

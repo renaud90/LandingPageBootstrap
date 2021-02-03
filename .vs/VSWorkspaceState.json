@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\font-awesome\\css",
+    "\\img",
+    "\\lib\\bootstrap\\dist",
+    "\\lib\\bootstrap\\dist\\css"
   ],
-  "SelectedNode": "\\img",
+  "SelectedNode": "\\css",
   "PreviewInSolutionExplorer": false
 }

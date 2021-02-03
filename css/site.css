@@ -2,21 +2,155 @@
     width : 100%;
 }
 
-h1{
+h1, h5{
     text-align:center;
+}
+
+i{
+    font-size:2em;
+}
+
+li{
+    list-style:none;
+}
+a{
+    display:inline-block;
+    font-weight:bold;
+}
+
+iframe{
+    height:100%;
+}
+
+img{
+    text-align:center;
+    margin-top: 15px;
+    margin-bottom:15px;
 }
 
 .container{
     max-width:100%;
-    margin:0px 0px 0px 0px;
+    margin:0px 0px 20px 0px;
 }
 
-.col-12{
+
+.col{
     padding:0px;
+    margin-bottom:10px;
 }
 
-#main-image{
-    height:600px;
+.half{
+    height:50%;
+}
+
+.dropdown-toggle{
+    margin:10px;
+}
+
+#main-image {
+    height: 600px;
     background-image: url('../img/main.jpg');
-    filter:opacity(80%);
+    filter: opacity(80%);
+}
+
+#shop1 {
+    background-image: url('../img/shop-computer.jpg');
+}
+
+#shop2 {
+    background-image: url('../img/shop-screen.jpg');
+}
+
+#shop3 {
+    background-image: url('../img/shop-disk.jpg');
+}
+
+#shop4 {
+    background-image: url('../img/shop-accessories.jpg');
+}
+
+#main-title{
+    margin-top:50px;
+    font-size:3em;
+}
+
+#cart-icon{
+    margin-left:75%;
+}
+
+#cart-icon i{
+    color:white;
+}
+
+#logo {
+    width: 100px;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.about-us-item {
+    height:400px;
+}
+
+.shop-menu-item {
+    filter: opacity(80%);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shop-menu-item, .about-us-item {
+    border: 5px solid white;
+}
+
+.shop-menu-item:hover{
+    filter:opacity(60%);
+}
+
+.menu-title{
+    text-align:center;
+    vertical-align:central;
+    line-height:300px;
+    font-size:1.5em;
+}
+
+.about-us-figure{
+    height:90%;
+}
+
+.logo-mini{
+    width:20px;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+#shop1{
+    margin-left:0px;
+}
+
+#footer{
+    margin-bottom:0px;
+}
+
+#footer-title{
+    padding-left:5px;
+}
+
+#footer-content{
+    filter:opacity(60%);
+}
+
+.no-margin{
+    margin:0px;
+}
+
+.padded{
+    padding: 25px 25px;
+}
+
+.text-mini{
+    font-size:0.8em;
 }
